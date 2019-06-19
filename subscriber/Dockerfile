@@ -24,8 +24,8 @@ RUN apt-get install -y --allow-unauthenticated -q \
     python3-sawtooth-sdk
 
 RUN pip3 install \
-    psycopg2-binary
-
+    psycopg2-binary \
+    protobuf==3.6.0
 WORKDIR /project/sawtooth-simple-supply
 
 ENV PATH $PATH:/project/sawtooth-simple-supply/bin

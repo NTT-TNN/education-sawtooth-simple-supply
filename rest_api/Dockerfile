@@ -30,8 +30,8 @@ RUN pip3 install \
     bcrypt \
     itsdangerous \
     pycrypto \
-    psycopg2-binary
-
+    psycopg2-binary \
+    protobuf==3.6.0
 
 WORKDIR /project/sawtooth-simple-supply
 
