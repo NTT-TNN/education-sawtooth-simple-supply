@@ -20,7 +20,13 @@
     "octicons": "^6.0.1",
     "popper.js": "^1.14.3"
   },
+  "resolutions": {
+    "browserslist": "4.6.2",
+    "caniuse-lite": "1.0.30000974"
+  },
   "devDependencies": {
+    "caniuse-lite":"1.0.30000974",
+    "browserslist": "4.6.2",
     "autoprefixer": "^8.6.2",
     "css-loader": "^0.28.11",
     "node-sass": "^4.9.0",
